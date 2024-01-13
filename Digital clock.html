@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head> 
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>digital clock</title>
+	<script type="text/javascript" src="Digital clock.js"></script>
+	<style type="text/css">
+		body
+		{
+			 background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(1,2,27,1) 100%);
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             min-height: 100vh; 
+             overflow: hidden;
+		}
+		.wrapper
+		{
+			background: whitesmoke;
+			font-size: 80px;
+			padding: 10px;
+			border: 5px solid black;
+
+		}
+		
+	</style>
+</head>
+<body>
+<div class="wrapper">
+	<div class="clock">
+		<span id="hours">00</span>
+		<span>:</span>
+		<span id="minutes">00</span>
+			<span>:</span>
+		<span id="seconds">00</span>
+			<span>:</span>
+		<span id="ampm">AM</span>
+	</div>
+</div>
+</body>
+</html>
